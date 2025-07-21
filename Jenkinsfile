@@ -4,7 +4,7 @@ pipeline {
 
     tools {
         // Define Node.js tool (configured in Jenkins Global Tool Configuration)
-        nodejs 'node-18' // Replace 'node-18' with the name you configure in Jenkins
+        nodejs 'node-latest' // Replace 'node-18' with the name you configure in Jenkins
     }
 
     stages {
